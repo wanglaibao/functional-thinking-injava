@@ -1,6 +1,6 @@
 #            Functional Programming Introduction
 
-   The topic of functional programming include curry-ing, partial application, and comprehensions. 
+   The topic of functional programming include currying, partial application, and comprehensions. 
    combinators, laziness, and monads.
 
 ###  1: Root Source of Functional Programming and Some Functional Programming Language
