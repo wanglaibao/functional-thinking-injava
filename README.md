@@ -32,4 +32,30 @@
    as an argument to another function, return a function from a function, or assign a function
    as a value to a variable
    
+* Lambdas and Closures
+
+  anonymous function with just the argument list and the body.
+  
+* High Order Functions
+
+    functions that take other functions as arguments or return them as results is a.k.a high order functions.
+     
+   【备注：Before java 8, Java methods are limited to primitives and objects as arguments and return values】
+    
+
+* Side-Effect-Free Functions
+
+* Recursion
+
+* Lazy vs. Eager Evaluation
+
+* Declarative vs. Imperative Programming
    
+   
+   
+   
+   
+### 3:functional programming resouces
+[Functional lambda](http://www.functionaljava.org/)
+[functionaljava] (https://github.com/functionaljava/functionaljava)
+[functionaljava.github.io](https://github.com/functionaljava/functionaljava.github.io)
