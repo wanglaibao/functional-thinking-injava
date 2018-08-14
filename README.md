@@ -1,5 +1,8 @@
 #            Functional Programming Introduction
 
+   The topic of functional programming include curry-ing, partial application, and comprehensions. 
+   combinators, laziness, and monads.
+
 ###  1: Root Source of Functional Programming and Some Functional Programming Language
 
 * Category Theory has been a fruitful source of ideas for functional programming.
@@ -25,5 +28,8 @@
   
 * Functions as First-Class Values
    
+   functions as first-class values,that mean we cant pass a function
+   as an argument to another function, return a function from a function, or assign a function
+   as a value to a variable
    
    
