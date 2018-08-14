@@ -4,6 +4,9 @@
     <groupId>com.laibao</groupId>
     <artifactId>functional-thinking-injava</artifactId>
     <version>1.0.0-SNAPSHOT</version>
+    <modules>
+        <module>functionalprogramintroduction</module>
+    </modules>
     <packaging>pom</packaging>
 
     <name>functional-thinking-injava</name>
