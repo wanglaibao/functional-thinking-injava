@@ -84,3 +84,11 @@
 [Functional lambda](http://www.functionaljava.org/)
 [functionaljava] (https://github.com/functionaljava/functionaljava)
 [functionaljava.github.io](https://github.com/functionaljava/functionaljava.github.io)
+
+[BecomingFunctional](https://github.com/jbackfield/BecomingFunctional)
+[Learn Functional Programming In Java (2)](https://zhuanlan.zhihu.com/p/24553892)
+[Functional Programming in Java](https://zhuanlan.zhihu.com/fpjava)
+[Learn Functional Programming In Java (9) -Thinking Java functionally](https://zhuanlan.zhihu.com/p/24652782)
+[compare-fp](https://github.com/corneil/compare-fp)
+
+[OnJava8-Examples:  Think in java 5](https://github.com/BruceEckel/OnJava8-Examples/)
