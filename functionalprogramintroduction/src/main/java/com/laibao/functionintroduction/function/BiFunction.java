@@ -6,6 +6,6 @@ package com.laibao.functionintroduction.function;
  * @version 1.0
  */
 @FunctionalInterface
-public interface Function1Void<T> {
-    void apply(T t);
+public interface BiFunction<T,W,R> {
+  R apply(T t,W w);
 }

@@ -3,9 +3,9 @@ package com.laibao.functionintroduction.function;
 /**
  * @author laibao wang
  * @date 2018-08-14
- * @version 1.0
+ * @version
  */
 @FunctionalInterface
-public interface Function1Void<T> {
-    void apply(T t);
+public interface Function<T,R> {
+    R apply(T t);
 }
