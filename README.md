@@ -48,9 +48,31 @@
 
 * Side-Effect-Free Functions
 
+    In mathematics, functions never have side effects, meaning they are side-effect-free. 
+
 * Recursion
 
+   Recall that functional programming in its purest form doesn’t allow mutable values.
+   That means we can’t use mutable loop counters to iterate through a collection.
+   
+   The classic functional alternative to an iterative loop is to use recursion, where each
+   pass through the function operates on the next item in the collection until a termination
+   point is reached
+   
+   Recursion is also a natural fit for certain algorithms, such as traversing
+   a tree where each branch is itself a tree.
+
 * Lazy vs. Eager Evaluation
+    
+  Mathematics defines some infinite sets, such as the natural numbers (all positive integers).
+  
+  Any particular finite subset of values is evaluated only on demand. We call this lazy evaluation.
+  
+  Eager evaluation would force us to represent all of the infinite values, which is clearly impossible.
+  
+  lazy evaluation is useful for deferring expensive operations until needed or
+  never executing them at all.
+    
 
 * Declarative vs. Imperative Programming
    
