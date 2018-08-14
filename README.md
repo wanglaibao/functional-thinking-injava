@@ -41,6 +41,9 @@
     functions that take other functions as arguments or return them as results is a.k.a high order functions.
      
    【备注：Before java 8, Java methods are limited to primitives and objects as arguments and return values】
+   
+    High order functions are a powerful tool for building abstractions and composing behavior 
+    and also promote reusability.
     
 
 * Side-Effect-Free Functions
