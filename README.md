@@ -1,9 +1,24 @@
 #            Functional Programming Introduction
 
-   The topic of functional programming include currying, partial application, and comprehensions. 
-   combinators, laziness, and monads.
+### 0: some idea we should keep in mind nowdays
+* It is not a better to use object-oriented programming (OOP) as our primary solution to 
+  develop software system , we can think of functional way now.
+  
+* functional programming (FP) is the best way to approach concurrency
 
-###  1: Root Source of Functional Programming and Some Functional Programming Language
+* The topic of functional programming include currying, partial application, and comprehensions. 
+   combinator, laziness, and monad.
+
+###  1: functional programming offers the best approach to meet the following challenges
+
+
+*
+
+*
+
+*
+
+###  2: Root Source of Functional Programming and Some Functional Programming Language
 
 * Category Theory has been a fruitful source of ideas for functional programming.
         【范畴论理论是函数式编程语言的数学思想源泉】
@@ -16,7 +31,8 @@
 * Java 8 now has some functional features such as lambda expression,stream api and functional interface.
 
 
-###  2: The Basic Principles of Functional Programming
+###  3: The Basic Principles of Functional Programming
+
 * Prefer immutable values over mutable values
 
   mutable values will make multi thread programming too difficult. 
@@ -80,7 +96,7 @@
    
    
    
-### 3:functional programming resouces
+### 4:functional programming resouces
 
 [Functionallambda] (http://www.functionaljava.org/)
 
