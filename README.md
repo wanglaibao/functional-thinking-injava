@@ -1,6 +1,6 @@
 #            Functional Programming Introduction
 
-### 0: some idea we should keep in mind nowdays
+### 0: some idea we should keep in mind now days
 * It is not a better to use object-oriented programming (OOP) as our primary solution to 
   develop software system , we can think of functional way now.
   
