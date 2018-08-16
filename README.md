@@ -23,6 +23,8 @@
 
 * functional Programming is more modular
 
+* Functional Programming Is a Return to Simplicity
+
 ###  2: Root Source of Functional Programming and Some Functional Programming Language
 
 * Category Theory has been a fruitful source of ideas for functional programming.
