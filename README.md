@@ -1,8 +1,8 @@
 #            Functional Programming Introduction
 
 ### 0: some idea we should keep in mind now days
-* It is not a better to use object-oriented programming (OOP) as our primary solution to 
-  develop software system , we can think of functional way now.
+* It is not better to use object-oriented programming (OOP) as our primary solution for 
+  developing software system , we can think of functional way now.
   
 * functional programming (FP) is the best way to approach concurrency
 
@@ -11,12 +11,17 @@
 
 ###  1: functional programming offers the best approach to meet the following challenges
 
+* in multi-core world,writing a  robust concurrent software is no longer optional.
 
-*
+  functional programming gives us the right principles to think about concurrency and it has spawned
+  several higher-level concurrency abstractions that make the job far easier.
+  
+  Multithreaded programming in java world, requiring synchronized access to shared,
+  mutable state, is the assembly language of concurrency
 
-*
+* big data and data management problems
 
-*
+* functional Programming is more modular
 
 ###  2: Root Source of Functional Programming and Some Functional Programming Language
 
