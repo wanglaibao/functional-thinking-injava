@@ -1,4 +1,4 @@
-##     mastering lambdas
+##     Mastering Lambdas: Java Programming in a Multicore World
 
 ### 0: thinking about abstraction【powerful tools for abstraction】
 
