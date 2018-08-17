@@ -4,6 +4,7 @@ import java.awt.*;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Arrays;
+import java.util.Objects;
 
 
 /**
@@ -33,8 +34,14 @@ public class PointDemo {
             point.translate(1,1);
         }
 
-
         // in java 8
         pointList.forEach(point -> point.translate(1,1));
+
+        iteratorJava8Way(pointList);
+    }
+
+    private static void iteratorJava8Way(List<Point> list) {
+        Objects.requireNonNull(list);
+        list.forEach(point -> point.translate(10,10));
     }
 }
