@@ -2,6 +2,7 @@ package com.laibao.masteringlambdas.chapter1.command;
 
 import java.awt.*;
 import java.util.ArrayList;
+import java.util.Objects;
 
 /**
  * @author laibao wang
@@ -11,6 +12,7 @@ import java.util.ArrayList;
 public class PointArrayList extends ArrayList<Point> {
 
     public void forEach(PointAction pointAction) {
+        Objects.requireNonNull(pointAction);
         for (Point point:this) {
             pointAction.doForPoint(point);
         }
