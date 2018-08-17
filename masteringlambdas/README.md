@@ -12,3 +12,6 @@
   they offer us complementary tools for managing program complexity. 
   and, as hardware parallelism continues to increase, the building blocks of functional programming【immutable values and pure functions】
   become even more effective tools for managing that complexity.
+  
+  
+  
