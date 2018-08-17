@@ -33,3 +33,7 @@
  [应用 fork-join 框架]  (https://www.ibm.com/developerworks/cn/java/j-jtp11137.html)
  
  [An introduction to the java.util.stream library] (https://www.ibm.com/developerworks/library/j-java-streams-1-brian-goetz/index.html)
+ 
+ http://wiki.jvmlangsummit.com/images/a/a1/2011_Goetz_Extension_Slides.pdf
+ 
+ http://wiki.jvmlangsummit.com/images/7/71/2011_Goetz_Extension.pdf
