@@ -6,5 +6,9 @@ package com.laibao.masteringlambdas.chapter7.defaultmethodandinherite;
  * @version 1.0
  */
 public abstract class Bar1 {
-    public abstract String hello();
+    public String hello(){
+        return "bar1";
+    }
+
+    public abstract String welcome();
 }

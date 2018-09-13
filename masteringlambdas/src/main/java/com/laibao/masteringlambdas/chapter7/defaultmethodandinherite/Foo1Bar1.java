@@ -8,8 +8,7 @@ package com.laibao.masteringlambdas.chapter7.defaultmethodandinherite;
 public class Foo1Bar1 extends Bar1 implements Foo1{
 
     @Override
-    public String hello() {
-        return "Foo1Bar1";
+    public String welcome() {
+        return "welcome from foo1bar1";
     }
-
 }
