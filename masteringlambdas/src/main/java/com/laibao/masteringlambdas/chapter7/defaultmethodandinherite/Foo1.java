@@ -5,8 +5,8 @@ package com.laibao.masteringlambdas.chapter7.defaultmethodandinherite;
  * @date 2018-09-13
  * @version 1.0
  */
-public interface Foo {
+public interface Foo1 {
     default String hello() {
-        return "Foo";
+        return "Foo1";
     }
 }

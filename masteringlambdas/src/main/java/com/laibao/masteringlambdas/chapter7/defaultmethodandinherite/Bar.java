@@ -7,6 +7,6 @@ package com.laibao.masteringlambdas.chapter7.defaultmethodandinherite;
  */
 public class Bar {
     public String hello() {
-        return "BAR";
+        return "Bar";
     }
 }
