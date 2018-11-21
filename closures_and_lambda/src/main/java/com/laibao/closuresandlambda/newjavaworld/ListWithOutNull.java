@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Comparator;
 import java.util.List;
+import java.util.function.Consumer;
 import java.util.function.Predicate;
 
 import static java.util.Comparator.comparing;
@@ -20,6 +21,16 @@ import static java.util.Comparator.comparing;
 public class ListWithOutNull {
 
     private Comparator<User> comparator = comparing(User::getLastName).thenComparing(User::getFirstName);
+
+
+    Consumer<Iterable> print_Objects = list -> {
+        for(Object it : list) {
+            System.out.println(it);
+        }
+    };
+
+    // For the record, this is the same result in more idiomatic Java 8 code:
+    Consumer<Iterable> printObjects = (Iterable list) -> list.forEach(System.out::println);
 
     public static <T> List<T> cloneWithoutNullsOne(final List<T> list) {
         List<T> newList = new ArrayList<T>();
