@@ -8,6 +8,7 @@
         <module>functionalprogramintroduction</module>
         <module>vavrinaction</module>
         <module>masteringlambdas</module>
+        <module>closures_and_lambda</module>
     </modules>
     <packaging>pom</packaging>
 
