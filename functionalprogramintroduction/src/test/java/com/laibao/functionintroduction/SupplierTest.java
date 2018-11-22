@@ -4,12 +4,19 @@ import com.alibaba.fastjson.JSON;
 import com.laibao.functionintroduction.model.Student;
 import org.junit.Test;
 
+import java.util.function.BiFunction;
 import java.util.function.Supplier;
 
 /**
  * @author laibao wang
  */
 public class SupplierTest {
+
+    // Constant Supplier of Number Instances
+    private Supplier<Number> function = () -> 1;
+
+    // String Concatenation Bifunction
+    BiFunction<String, String, String> concat = (a, b) -> a + b;
 
     @Test
     public void testGetSimpleString() {
