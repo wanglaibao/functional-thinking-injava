@@ -56,7 +56,24 @@ public class Student {
         return concurrent.getAge() - other.getAge();
     }
 
-    public int compareStudentByName(Student other) {
+    public int compareStudentByName1(Student other) {
         return this.getName().compareTo(other.getName());
+    }
+
+    public int compareStudentByScore1(Student other) {
+        return this.getScore() - other.getScore();
+    }
+
+    public int compareStudentByAge1(Student other) {
+        return this.getAge() - other.getAge();
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", score=" + score +
+                '}';
     }
 }
