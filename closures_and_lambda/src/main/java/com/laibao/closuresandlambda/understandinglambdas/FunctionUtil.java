@@ -2,10 +2,12 @@ package com.laibao.closuresandlambda.understandinglambdas;
 
 import org.apache.commons.lang3.StringUtils;
 
-import java.util.function.BinaryOperator;
-import java.util.function.Function;
-import java.util.function.Predicate;
-import java.util.function.UnaryOperator;
+import java.beans.ExceptionListener;
+import java.math.BigInteger;
+import java.util.Arrays;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ThreadFactory;
+import java.util.function.*;
 
 /**
  * @author laibao wang
@@ -18,16 +20,38 @@ public class FunctionUtil {
 
     private Predicate<String> notNullOrEmpty = s -> StringUtils.isNotEmpty(s) && s.length() > 0;
 
+    private IntFunction<String> intToString = Integer::toString;
+
+    private ToIntFunction<String> parseInt = Integer::valueOf;
+
+    private Function<String, BigInteger> newBigInt = BigInteger::new;
+
+    private Consumer<String> print = System.out::println;
+
+    private UnaryOperator<String> makeGreeting = "Hello, "::concat;
+
+    private IntFunction<String> lookup = Arrays.asList("a", "b", "c")::get;
+
+    // Create concurrency interfaces from lambdas
+    private Runnable runMe = () -> System.out.println("Ran!");
+
+    private Callable<Long> callMe = System::currentTimeMillis;
+
+    private static ThreadFactory threadFactory = Thread::new;
+
+    // Implement listener interfaces
+    private ExceptionListener listener = Exception::printStackTrace;
+
     //Identity Function Assigned to an Object Variable
     // This code does not compile
     //private Object funObject = it -> it;
 
 
     // Identity Function Assigned to a Generic Function Variable
-    private Function<?,?> function = it -> it;
+    private Function<?, ?> function = it -> it;
 
     // Identity Function for Number Instances Assigned to a Function Variable
-    private Function<Number,Number> numberFunction = it -> it;
+    private Function<Number, Number> numberFunction = it -> it;
 
     // Identity Function Implemented Using an Anonymous Inner Class
     public static <T> Function<T, T> identityFunctionAIC() {
@@ -40,7 +64,7 @@ public class FunctionUtil {
     }
 
     // Identity Function Implemented Using a Lambda
-    public static  <T> Function<T,T> identityFunction() {
+    public static <T> Function<T, T> identityFunction() {
         return (T t) -> t;
     }
 
@@ -51,4 +75,22 @@ public class FunctionUtil {
     public static CharSequence transform(CharSequence str, Function<CharSequence, CharSequence> transformer) {
         return transformer.apply(str);
     }
+
+    public static IntUnaryOperator compareAgainst(Integer compareLeft) {
+        return compareLeft::compareTo;
+    }
+
+    private static UnaryOperator<String> stringOp = ""::concat;
+
+    public static void main(String[] args) {
+        IntUnaryOperator intUnaryOperator = compareAgainst(100);
+        int value = intUnaryOperator.applyAsInt(200);
+        System.out.println(value);
+
+        stringOp.apply("afasfd");
+
+        threadFactory.newThread(() -> System.out.println()).start();
+    }
+
 }
+
